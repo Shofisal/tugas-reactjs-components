@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import ListProduct from './components/ListProduct';
+import Counter from './components/Counter';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Tugas React Js Components</h1>
+      <h3 className= "Nomer1">No.1 Membuat Counter</h3>
+      <Counter/>
+      <h3 className= "Nomer2">No.2 Membuat List Produk </h3>
+      <ListProduct />
+
+
     </div>
   );
 }
